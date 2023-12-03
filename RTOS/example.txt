@@ -1,0 +1,23 @@
+aaaxxxzzzz14278759627600
+shfiwaghpeK'e;bnolaebp;aeb5797463137461
+1
+
+f1=fopen("example1.txt","w");
+
+        if(f1==NULL)
+        {
+            printf("error msg");
+            exit(0);
+        }
+
+        while((ch=getc(f1))!=EOF)
+        {
+    
+            if(ch=='a')
+            count++;
+            else if(ch=='z')
+            count1++;
+            else if(ch>='0' && ch<='9')
+            count2++;
+        }
+        printf("sum of 'a' is %d\n,sum of 'z' is %d\n,sum of digits are %d\n",count,count1,count2);
