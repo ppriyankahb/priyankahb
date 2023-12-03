@@ -1,0 +1,6 @@
+/*Write a c program which create two threads. The thread work on a common square integer Matrix. 
+One of the thread computes the sum of principal diagonal elements of Matrix the other thread 
+computes the sum of all the principal diagonal elements of Matrix. Collect these to partial 
+sum and compute the total and sum of elements also. The Matrix thread should open a file where the
+ file value it produced by user and 
+write a sentence of one or more lines to the file. The sentence should be taken from user*/
