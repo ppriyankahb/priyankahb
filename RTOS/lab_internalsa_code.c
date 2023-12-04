@@ -49,7 +49,7 @@ int main()
     {
         FILE *f1;
 
-        f1=fopen("example2.txt","w");
+        f1=fopen("example3.txt","w");
 
         if(f1==NULL)
         {
